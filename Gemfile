@@ -29,7 +29,7 @@ group :production do
   gem 'net-ssh'
   gem 'net-scp'
   gem 'net-sftp'
-  gem 'mail', '= 2.5.4' # patched
+  gem 'mail', '= 2.6.3'
   gem 'pagerduty'
   gem 'twitter'
   gem 'hipchat'
@@ -37,6 +37,8 @@ group :production do
   gem 'json'
   gem 'dogapi'
   gem 'aws-ses'
+  gem 'thread_safe', '= 0.3.4'
+  gem 'mime-types', '= 2.4.3'
 end
 
 gem 'rspec'
